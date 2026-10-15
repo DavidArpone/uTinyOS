@@ -1,12 +1,8 @@
-<img title="" src="file:///C:/Users/pity_/Downloads/Gemini_Generated_Image_mlt9aqmlt9aqmlt9.jpeg" alt="Gemini_Generated_Image_mlt9aqmlt9aqmlt9.jpeg" width="699" data-align="left">
-
-# uTinyOS - a micro tiny OS on FreeRTOS
+# #uTinyOS - a micro tiny OS on FreeRTOS
 
 ---
 
 > Un conjunto de tareas organizadas que despliegan un pequeño kernel capaz de administrar los recursos de un micro controlador.
-
-
 
 #### Resumen
 
@@ -62,11 +58,9 @@ A futuro se buscará implementar un sistema de plug-ins donde, a través del mó
 
 También se buscará generar una interfaz de comando de linea, en el módulo `uConsole`, para obtener informacion y dar ordenes al micro controlador sin la necesidad de interrumpir la ejecución de las tareas.
 
-Al finalizar, se espera contar con el siguiente ecosistema de herramientas desplegadas funcionando en un micro controlador.
-
-![Gemini_Generated_Image_yij8igyij8igyij8 (1).jpeg](C:\Users\pity_\Downloads\Gemini_Generated_Image_yij8igyij8igyij8%20(1).jpeg)
-
 Se documentará módulo a módulo las implementaciones y sus funcionalidades. 
+
+
 
 Es necesario configurar un archivo csv para especificar las particiones spiffs y OTA que vamos a utilizar. Además, a través de las configuraciones de IDF, establecemos el tamaño de la memoria del micro controlador.
 
