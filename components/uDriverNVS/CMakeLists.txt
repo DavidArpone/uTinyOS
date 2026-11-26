@@ -3,5 +3,10 @@ idf_component_register(
         
         INCLUDE_DIRS
         	"include"
+        	
+        REQUIRES
+        	uEvents
+        	nvs_flash
+
 )
 

@@ -1,1 +1,4 @@
-void func(void);
+#pragma once
+
+void start_uTinyOS();
+

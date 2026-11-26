@@ -1,0 +1,68 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uTinyOS</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+    <h1 class = "title" >uTinyOS - Set Wi-Fi</h1>
+    <hr>
+
+    <section class = "page">
+        
+        <section class = "left">
+            
+            <form action="/" method="POST">
+
+                <div class = "form">
+
+                    <div class = "formChild">
+
+                        <div class = "div_ssid_label">
+                        
+                        <label class = "ssid_label">SSID:</label>
+                        <hr>
+                        <input class = "input_ssid" type="text" name="ssid" placeholder = "SSID" required>
+
+                        </div>
+
+                        <br><br>
+
+                        <div class = "div_psw_label">
+
+                            <label class = "psw_label">Password:</label>
+                            <hr>
+                            <input class = "input_psw" type="password" name="psw" placeholder = "Password" required>
+                        
+                        </div>
+
+                        <br><br>
+
+                        <button class ="btn_form" type="submit">
+                            Connect
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </section>
+
+        <section class = "right">
+
+            <button id = "btn-list" class = "btn_form"> Buscar señales </button>
+            
+            <section id="list-section">
+                <div id="placeList"></div>
+            </section>
+
+        </section>
+
+    </section>
+    
+</body>
+</html>

@@ -3,5 +3,11 @@ idf_component_register(
         
         INCLUDE_DIRS 
         	"include"
+        	
+        REQUIRES
+        	uEvents
+        	spiffs
+        	esp_http_server
+         	
 )
 

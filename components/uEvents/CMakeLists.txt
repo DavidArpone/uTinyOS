@@ -1,7 +1,11 @@
 idf_component_register(
-		SRCS "uEventLoop.c"
+		SRCS "uEvents.c"
         
         INCLUDE_DIRS 
         	"include"
+		
+		REQUIRES
+			esp_event
+		
 )
 
